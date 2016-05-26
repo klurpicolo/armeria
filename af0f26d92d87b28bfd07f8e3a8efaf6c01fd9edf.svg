@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="664" height="192">
+    <style>
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css');
+* { font-family: Hack; font-size: 13px; }
+
+        line, path, circle, rect, polygon{stroke:black;stroke-width:2;stroke-opacity:1;fill-opacity:1;stroke-linecap:round;stroke-linejoin:miter;}text{font-family:monospace;font-size:14px;}rect.backdrop{stroke:none;fill:white;}.broken{stroke-dasharray:8;}.filled{fill:black;}.bg_filled{fill:white;}.nofill{fill:white;}.end_marked_arrow{marker-end:url(#arrow);}.start_marked_arrow{marker-start:url(#arrow);}.end_marked_diamond{marker-end:url(#diamond);}.start_marked_diamond{marker-start:url(#diamond);}.end_marked_circle{marker-end:url(#circle);}.start_marked_circle{marker-start:url(#circle);}.end_marked_open_circle{marker-end:url(#open_circle);}.start_marked_open_circle{marker-start:url(#open_circle);}.end_marked_big_open_circle{marker-end:url(#big_open_circle);}.start_marked_big_open_circle{marker-start:url(#big_open_circle);}
+        <!--separator-->
+        
+    </style>
+    <defs>
+        <marker id="arrow" viewBox="-2 -2 8 8" refX="4" refY="2" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <polygon points="0,0 0,4 4,2 0,0"></polygon>
+        </marker>
+        <marker id="diamond" viewBox="-2 -2 8 8" refX="4" refY="2" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <polygon points="0,2 2,0 4,2 2,4 0,2"></polygon>
+        </marker>
+        <marker id="circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="2" class="filled"></circle>
+        </marker>
+        <marker id="open_circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="2" class="bg_filled"></circle>
+        </marker>
+        <marker id="big_open_circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="3" class="bg_filled"></circle>
+        </marker>
+    </defs>
+    <rect class="backdrop" x="0" y="0" width="664" height="192"></rect>
+    <text x="314" y="44" >totalDurationNanos</text>
+    <text x="194" y="76" >requestDurationNanos</text>
+    <text x="386" y="108" >responseDurationNanos</text>
+    <text x="282" y="156" >:</text>
+    <text x="170" y="172" >ResponseHeaders</text>
+    <text x="106" y="172" >Sending</text>
+    <text x="298" y="172" >before</text>
+    <text x="354" y="172" >the</text>
+    <text x="386" y="172" >service</text>
+    <text x="450" y="172" >fully</text>
+    <text x="498" y="172" >receives</text>
+    <text x="570" y="172" >the</text>
+    <text x="602" y="172" >request</text>
+    <g>
+        <line x1="92" y1="24" x2="652" y2="24" class="solid"></line>
+        <line x1="92" y1="24" x2="92" y2="88" class="solid"></line>
+        <line x1="652" y1="24" x2="652" y2="56" class="solid"></line>
+        <line x1="92" y1="56" x2="652" y2="56" class="solid"></line>
+        <line x1="452" y1="56" x2="452" y2="88" class="solid"></line>
+        <line x1="92" y1="88" x2="652" y2="88" class="solid"></line>
+        <line x1="284" y1="88" x2="284" y2="120" class="solid"></line>
+        <line x1="652" y1="88" x2="652" y2="120" class="solid"></line>
+        <line x1="284" y1="120" x2="652" y2="120" class="solid"></line>
+    </g>
+    <g>
+        <polygon points="104,36 96,40 104,44" class="filled"></polygon>
+        <line x1="104" y1="40" x2="312" y2="40" class="solid"></line>
+    </g>
+    <g>
+        <line x1="456" y1="40" x2="640" y2="40" class="solid"></line>
+        <polygon points="640,36 648,40 640,44" class="filled"></polygon>
+    </g>
+    <g>
+        <polygon points="104,68 96,72 104,76" class="filled"></polygon>
+        <line x1="104" y1="72" x2="192" y2="72" class="solid"></line>
+    </g>
+    <g>
+        <line x1="352" y1="72" x2="440" y2="72" class="solid"></line>
+        <polygon points="440,68 448,72 440,76" class="filled"></polygon>
+    </g>
+    <g>
+        <polygon points="296,100 288,104 296,108" class="filled"></polygon>
+        <line x1="296" y1="104" x2="384" y2="104" class="solid"></line>
+    </g>
+    <g>
+        <line x1="552" y1="104" x2="640" y2="104" class="solid"></line>
+        <polygon points="640,100 648,104 640,108" class="filled"></polygon>
+    </g>
+    <g>
+        <polygon points="280,140 284,128 288,140" class="filled"></polygon>
+        <line x1="284" y1="140" x2="284" y2="144" class="solid"></line>
+    </g>
+</svg>
